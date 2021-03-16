@@ -53,4 +53,4 @@ setTimeout(function () {
 
   }//Mostro il risultato con un alert
   alert('hai ricordato i numeri ' + numbersPrompt + ' il tuo punteggio è: ' + numbersPrompt.length );
-}, 3000);
+}, 30000);
