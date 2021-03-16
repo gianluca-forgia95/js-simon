@@ -26,3 +26,11 @@ function isInArray(array, item) {
   }
   return risultato;
 }
+
+var winningNumbers = [];
+//Creo il ciclo for per generare 5 numeri random e li metto nell'array vuoto
+for (var i = 0; i < 5; i++) {
+  winningNumbers.push(randomNumber(1,60));
+}
+//Stampo i numeri con l'alert
+var startGame = alert('I numeri vincenti sono : ' + winningNumbers);
