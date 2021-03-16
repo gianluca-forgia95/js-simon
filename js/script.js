@@ -14,18 +14,7 @@ stati individuati
 function randomNumber( min, max) {
  return parseInt(Math.random() * (max - min) + min + 1) ;
 }
-//Funzione per cercare un elemento in un array
-function isInArray(array, item) {
-  var i = 0;
-  var risultato = false;
-  while (i < array.length && risultato == false) {
-    if (array[i] == item) {
-      risultato = true;
-    }
-    i++;
-  }
-  return risultato;
-}
+
 //Variabili utili
 var winningNumbers = [];
 var numbersPrompt = [];
