@@ -34,3 +34,10 @@ for (var i = 0; i < 5; i++) {
 }
 //Stampo i numeri con l'alert
 var startGame = alert('I numeri vincenti sono : ' + winningNumbers);
+
+//Inizializzo il setTimeout
+setTimeout(function () {
+  for (var j = 0; j < 5; j++) {
+    var gamePrompts = parseInt(prompt('Inserisci uno dei numeri che hai visto prima'));
+  }
+}, 2000);
